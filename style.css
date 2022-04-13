@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&family=Noto+Sans:ital,wght@0,300;1,200&family=Rubik+Bubbles&display=swap');
+
+*{
+    font-family: 'Noto Sans KR';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EAE8FE;
+}
+
+h2{
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.logo-cola{
+    display: block;
+    width: 386px;
+    margin: 0 auto;
+}
+
+.main{
+    width: 783px;
+    margin: 67px auto;
+    padding-bottom: 31px;
+    overflow: hidden;
+}
+
+
+.wrap1{
+    width: 360px;
+    background-color: white;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 28px;
+
+}
+
+.select-cola-wrap{
+    display: flex;
+    width: 326px;
+    flex-wrap: wrap;
+    margin-top: 31px;
+    margin-right: 12px;
+    padding-left: 28px;
+}
+
+.select-cola{
+    margin-right: 12px;
+    margin-bottom: 12px;
+    width: 94px;
+    height: 130px;
+    text-align: center;
+    box-shadow: 0 1px 5px 0 #969696;
+    border-radius: 10px;
+}
+
+.select-cola:hover{
+    border: 3px solid #6327FE;
+}
+
+.select-cola .img-cola{
+    width: 35px;
+    margin-top: 11px;
+
+}
+
+.select-cola p{
+    font-size: 9px;
+    color: #333333;
+    margin: 6px 0 7px 0;
+}
+
+.select-cola .price{
+    border: 0;
+    width: 70px;
+    height: 22px;
+    background-color: #6327FE;
+    border-radius: 50px;
+    color: white;
+}
+
+.form-counting{
+    margin: 10px 0 11px 24px;
+
+}
+
+.form-counting .txt-remain{
+    margin-bottom: 11px;
+    margin-right: 13px;
+    width: 200px;
+    height: 33px;
+    background-color: #EAE8FE;
+    border: 0;
+    border-radius: 4px;
+}
+
+
+.txt-remain::placeholder{
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.form-counting .txt-deposit{
+    margin-right: 12px;
+    width: 200px;
+    height: 33px;
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    color: #BDBDBD;
+    border-radius: 4px;
+    border: 1px solid #BDBDBD;
+}
+
+.form-counting .bttn-remain, .form-counting .bttn-deposit
+{
+    width: 94px;
+    height: 33px;
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0 1px 5px 0 #969696;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.wrap-check-menu{
+    float: left;
+    width: 200px;
+    height: 106px;
+    margin-left: 24px;
+    background-color: #EAE8FE;
+    border: 1px solid #BDBDBD;
+    overflow: hidden scroll ;
+}
+
+.box-check-menu{
+    margin: 12px 0 6px 12px;
+    width: 170px;
+    height: 46px;
+    background-color: white;
+    border-radius: 4px;  
+    overflow: hidden;
+}
+
+.box-check-menu img{
+    float: left; 
+    margin-left: 10px ;
+    margin-top: 6px;
+}
+
+.box-check-menu h2{
+    float: left;
+    font-size: 9px;
+    color: #333333;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.box-check-menu p{
+    float: right;
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+.bttn-get{
+    float: right;
+    margin-right: 21px;
+    width: 94px;
+    height: 106px;
+    background-color: #6327FE;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 0;
+    color: #FFFFFF;
+
+}
+
+
+.wrap2{
+    width: 360px;
+    float: right;
+}
+
+.my-money{
+    width: 360px;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.my-money input{
+    width: 306px;
+    height: 32px;
+    background-color: #EAE8FE;
+    border: 0;
+    margin: 9px 27px;
+}
+
+.my-money input::placeholder{
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.get-list{
+    width: 360px;
+    background-color: white;
+    padding: 30px 0 60px 0 ;
+}
+
+.get-list h1{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 13px;
+
+}
+
+.get-list-box{
+    width: 306px;
+    height: 364px;
+    overflow: hidden scroll;
+    background-color: #EAE8FE;
+    margin: 0 auto;
+}
+
+.get-list-menu{
+    margin: 12px 0 6px 12px;
+    width: 276px;
+    height: 46px;
+    background-color: white;
+    border-radius: 4px;  
+    overflow: hidden;
+}
+
+.get-list-menu img{
+    float: left; 
+    margin-left: 10px ;
+    margin-top: 6px;
+}
+
+.get-list-menu h2{
+    float: left;
+    font-size: 9px;
+    color: #333333;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.get-list-menu p{
+    float: right;
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+
+
+/* 스크롤바 설정*/
+.scroll::-webkit-scrollbar{
+    width: 6px;
+}
+
+/* 스크롤바 막대 설정*/
+.scroll::-webkit-scrollbar-thumb{
+    height: 17%;
+    background-color: rgb(209, 209, 209);
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;    
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.scroll::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+}
