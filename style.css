@@ -51,6 +51,7 @@ h2{
 .select-cola-wrap::after{
     content: url(images/품절_background.png);
     display: block;
+    height: 100px;
     margin: -283px 0 0 106px;
 
 }
@@ -67,7 +68,7 @@ h2{
 }
 
 .select-cola:hover{
-    border: 3px solid #6327FE;
+    outline: 3px solid #6327FE;
 }
 
 .select-cola .img-cola{
