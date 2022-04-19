@@ -48,6 +48,14 @@ h2{
     padding-left: 28px;
 }
 
+.select-cola-wrap::after{
+    content: url(images/품절_background.png);
+    display: block;
+    margin: -283px 0 0 106px;
+
+}
+
+
 .select-cola{
     margin-right: 12px;
     margin-bottom: 12px;
@@ -58,14 +66,13 @@ h2{
     border-radius: 10px;
 }
 
-.select-cola:active{
+.select-cola:hover{
     border: 3px solid #6327FE;
 }
 
 .select-cola .img-cola{
     width: 35px;
     margin-top: 11px;
-
 }
 
 .select-cola p{
