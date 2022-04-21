@@ -33,11 +33,11 @@ body{
     width: 360px;
     background-color: white;
     box-sizing: border-box;
-    position: relative;
+    /*position: relative;*/
 }
 
 #app .vending-machine{
-    padding: 31px 27px 38px;
+    padding: 31px 27px 28px;
 }
 
 .vending-machine .list-cola{
@@ -49,7 +49,7 @@ body{
 .vending-machine .list-cola li{
     position: relative;
     width: 94px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     
 }
@@ -88,15 +88,18 @@ body{
 }
 
 /*sold-out*/
+.vending-machine .list-cola li.sold-out{
+    position: relative;
+}
 .vending-machine .list-cola li.sold-out::after{
     content: '';
     display: block;
     top:0;
     left: 0;
-    position: absolute;
-    z-index: 10;
     width: 100%;
     height: 100%;
+    position: absolute;
+    z-index: 10;
     background:no-repeat center/ 95px 130px url('images/Sold-out.png');
 }
 
@@ -113,4 +116,113 @@ body{
     line-height: 0;
     font-size: 1px;
     color: transparent;
+}
+
+
+/*계산하기*/
+.cont-counter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    margin-top: 20px;
+    padding: 6px 0px ;
+    overflow: hidden;
+}
+
+.cont-counter .info-balance{
+    display: block;
+    width: 180px;
+    padding: 0 10px;
+    background-color: #EAE8FE;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+    vertical-align:middle;
+    border-radius: 5px;
+}
+
+.cont-counter .info-balance .num-balance{
+    float: right;
+}
+
+
+.cont-counter .btn-return{
+    width: 94px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 12px;
+}
+
+.cont-counter .deposit-money{
+    display: block;
+    width: 180px;
+    margin-top: 10px;
+    padding: 6px 10px;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+}
+
+.cont-counter .btn-deposit{
+    width: 94px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    margin: 11px 0 0 10px;
+}
+
+.cont-shoppingList{
+    display: block;
+    width: 200px;
+    margin-top: 11px;
+    overflow-y: scroll;
+    background-color:#eae8fe;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+.cont-shoppingList .shoppingList-cola{
+    padding: 12px 16px 0 12px; 
+}
+
+.cont-shoppingList .shoppingList-cola li{
+    background-color: white;
+    padding: 6px 0 ;
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cont-shoppingList .shoppingList-cola li+li{
+    margin-top: 6px;
+}
+
+.cont-shoppingList .shoppingList-cola .img-shoppingList{
+    float: left;
+    width: 18px;
+    margin-left: 10px;
+}
+
+.cont-shoppingList .shoppingList-cola .tit-shoppingList{
+    float: left;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.cont-shoppingList .shoppingList-cola .shoppingList-count{
+    float: right;
+    padding: 6px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
 }
