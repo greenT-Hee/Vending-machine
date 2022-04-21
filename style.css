@@ -33,6 +33,7 @@ body{
     width: 360px;
     background-color: white;
     box-sizing: border-box;
+    position: relative;
 }
 
 #app .vending-machine{
@@ -46,23 +47,17 @@ body{
 }
     
 .vending-machine .list-cola li{
+    position: relative;
     width: 94px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    
 }
 
 .vending-machine .list-cola li:hover{
     outline: #6327FE 3px solid;
+    cursor: pointer;
 }
-
-.vending-machine .list-cola li::before{
-    content: '';
-    display: block;
-    top:0;
-    left: 0;
-    background-image:url('images/Sold-out.png') ;
-}
-
 
 .list-cola li .btn-cola {
     padding: 11px 0 9px;
@@ -92,3 +87,30 @@ body{
     box-sizing: border-box;
 }
 
+/*sold-out*/
+.vending-machine .list-cola li.sold-out::after{
+    content: '';
+    display: block;
+    top:0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background:no-repeat center/ 95px 130px url('images/Sold-out.png');
+}
+
+.vending-machine .list-cola li.sold-out:hover{
+    cursor: none;
+    outline: none;
+}
+
+.vending-machine .list-cola li.sold-out::after{
+    content: '품절';
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    line-height: 0;
+    font-size: 1px;
+    color: transparent;
+}
