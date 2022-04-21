@@ -1,12 +1,11 @@
 @charset "utf-8";
 
 body{
+
     background-color: #eae8fe;
 }
 
-.img-item{
-    display: block;
-}
+
 
 #app{
     display: flex;
@@ -47,7 +46,6 @@ body{
 }
     
 .vending-machine .list-cola li{
-    position: relative;
     width: 94px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
