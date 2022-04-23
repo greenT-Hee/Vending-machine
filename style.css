@@ -17,7 +17,6 @@ body{
 }
 
 #app .tit-logo{
-    position: fixed;
     top: 0;
     background-image: url(images/logo.png);
     width: 100%;
@@ -101,7 +100,7 @@ body{
     background:no-repeat center/ 95px 130px url('images/Sold-out.png');
 }
 
-.vending-machine .list-cola li.sold-out:hover{
+.vending-machine .list-cola li.sold-out::after:hover{
     cursor: none;
     outline: none;
 }
