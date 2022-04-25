@@ -50,8 +50,9 @@ body{
     
 }
 
-.vending-machine .list-cola li:hover{
+.vending-machine .list-cola li .btn-cola:active{
     outline: #6327FE 3px solid;
+    border-radius: 6px;
     cursor: pointer;
 }
 
