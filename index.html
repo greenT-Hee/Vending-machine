@@ -4,8 +4,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,54 +18,54 @@
         <section class="vending-machine">
             <h2 class="ir">자판기 화면</h2>
             <ul class="list-cola">
-                <li>
+                <!-- <li>
                     <button type="button" class="btn-cola">
-                        <img class="img-cola" src="images/Original_Cola.png" alt="">
+                        <img class="img-cola" src="src/images/Original_Cola.png" alt="">
                         <strong class="tit-cola">Original_Cola</strong>
                         <span class="txt-price">1000원</span>
                     </button>
                 </li>
                 <li class="sold-out">
                     <button type="button" class="btn-cola">
-                        <img class="img-cola" src="images/Violet_Cola.png" alt="">
+                        <img class="img-cola" src="src/images/Violet_Cola.png" alt="">
                         <strong class="tit-cola">Violet_Cola</strong>
                         <span class="txt-price">1000원</span>
                     </button>
                 </li>
                 <li>
                     <button type="button" class="btn-cola">
-                        <img class="img-cola" src="images/Yellow_Cola.png" alt="">
+                        <img class="img-cola" src="src/images/Yellow_Cola.png" alt="">
                         <strong class="tit-cola">Yellow_Cola</strong>
                         <span class="txt-price">1000원</span>
                     </button>
                 </li>
                 <li>
                     <button type="button" class="btn-cola">
-                        <img class="img-cola" src="images/Cool_Cola.png" alt="">
+                        <img class="img-cola" src="src/images/Cool_Cola.png" alt="">
                         <strong class="tit-cola">Cool_Cola</strong>
                         <span class="txt-price">1000원</span>
                     </button>
                 </li>
                 <li>
                     <button type="button" class="btn-cola">
-                        <img class="img-cola" src="images/Green_Cola.png" alt="">
+                        <img class="img-cola" src="src/images/Green_Cola.png" alt="">
                         <strong class="tit-cola">Green_Cola</strong>
                         <span class="txt-price">1000원</span>
                     </button>
                 </li>
                 <li>
                     <button type="button" class="btn-cola">
-                        <img class="img-cola" src="images/Orange_Cola.png" alt="">
+                        <img class="img-cola" src="src/images/Orange_Cola.png" alt="">
                         <strong class="tit-cola">Orange_Cola</strong>
                         <span class="txt-price">1000원</span>
                     </button>
-                </li>
+                </li> -->
             </ul>
             <section class="cont-counter">
                 <h2 class="ir">구매 및 획득 화면</h2>
                 <div class="info-balance">
                     잔액: 
-                    <strong class="num-balance">1,000 원</strong>
+                    <strong class="num-balance"></strong>
                 </div>
                 <button type="button" class="btn-return">거스름돈 반환</button>
                 <input type="number" placeholder="입금액 입력" class="deposit-money">
@@ -73,21 +73,21 @@
 
                 <div class="cont-shoppingList">
                     <ul class="shoppingList-cola">
-                        <li>
-                            <img class="img-shoppingList" src="images/Original_Cola.png" alt="">
+                        <!-- <li>
+                            <img class="img-shoppingList" src="src/images/Original_Cola.png" alt="">
                             <strong class="tit-shoppingList">Original_Cola</strong>
-                            <strong class="shoppingList-count">1</strong>
+                            <p class="shoppingList-count">1</p>
                         </li>
                         <li>
-                            <img class="img-shoppingList" src="images/Green_Cola.png" alt="">
+                            <img class="img-shoppingList" src="src/images/Green_Cola.png" alt="">
                             <strong class="tit-shoppingList">Green_Cola</strong>
-                            <strong class="shoppingList-count">2</strong>
+                            <p class="shoppingList-count">2</p>
                         </li>
                         <li>
-                            <img class="img-shoppingList" src="images/Green_Cola.png" alt="">
+                            <img class="img-shoppingList" src="src/images/Green_Cola.png" alt="">
                             <strong class="tit-shoppingList">Green_Cola</strong>
-                            <strong class="shoppingList-count">2</strong>
-                        </li>
+                            <p class="shoppingList-count">2</p>
+                        </li> -->
                     </ul>
                 </div>
                 <button type="button" class="btn-get">획득</button>
@@ -100,7 +100,7 @@
             <div class="info-myMoney">
                 <div class="box-myMoney">
                     소지금:
-                    <strong class="num-myMoney">25,000</strong>
+                    <strong class="num-myMoney"></strong>
                 </div>
             </div>
 
@@ -109,26 +109,28 @@
                 <strong class="tit-gain">획득한 음료</strong>
                 <div class="gainList">
                     <ul class="gainList-cola">
-                        <li>
-                            <img class="img-gainList" src="images/Original_Cola.png" alt="">
+                        <!-- <li>
+                            <img class="img-gainList" src="src/images/Original_Cola.png" alt="">
                             <strong class="tit-gainList">Original_Cola</strong>
                             <strong class="gainList-count">1</strong>
-                        </li>
-                        <li>
-                            <img class="img-gainList" src="images/Cool_Cola.png" alt="">
+                        </li> -->
+                        <!-- <li>
+                            <img class="img-gainList" src="src/images/Cool_Cola.png" alt="">
                             <strong class="tit-gainList">Cool_Cola</strong>
                             <strong class="gainList-count">1</strong>
                         </li>
                         <li>
-                            <img class="img-gainList" src="images/green_Cola.png" alt="">
+                            <img class="img-gainList" src="src/images/green_Cola.png" alt="">
                             <strong class="tit-gainList">Green_Cola</strong>
                             <strong class="gainList-count">1</strong>
-                        </li>
+                        </li> -->
                     </ul>
                     <strong class="total-cost">총 금액: 9,000원</strong>
                 </div>
             </section>
         </section>
     </div>
+
+        <script src="src/index.js"></script>
 </body>
 </html>

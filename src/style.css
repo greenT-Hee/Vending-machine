@@ -58,6 +58,10 @@ body{
     padding: 11px 0 9px;
 }
 
+.btn-cola > img, span, strong {
+    pointer-events:none;
+}
+
 .list-cola li .img-cola{
     width: 35px;
 }
@@ -87,7 +91,7 @@ body{
     position: relative;
 }
 
-.list-cola .sold-out .:hover{
+.list-cola .sold-out:hover{
     pointer-events: none;
     outline: none;
 }
@@ -101,7 +105,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background:no-repeat center/ 95px 130px url('images/Sold-out.png');
+    background:no-repeat center/ 95px 133px url('images/Sold-out.png');
 }
 
 
