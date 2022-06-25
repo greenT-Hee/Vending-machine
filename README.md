@@ -17,11 +17,6 @@
 ```
 #### - cola 배열들은 모두 순서 없는 ul > li로 작성하였습니다.
  
-<br>
-
-####  2. HTML 웹표준 <br> - validator 검사 결과 HTMl 마크업 웹표준 준수했습니다.
-<img src="https://velog.velcdn.com/images/greenth322/post/728c92d4-50fb-441a-8c81-06437c33b645/image.png">
-
 
 ### ✔JavaScript(추후 예정)
 
